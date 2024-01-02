@@ -29,4 +29,9 @@ public class Position {
     public void setColumn(Integer column) {
         this.column = column;
     }
+
+    @Override
+    public String toString() {
+        return row + ", " + column;
+    }
 }
